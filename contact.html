@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+  <style>
+    body{
+      background-image: url(ttt3.jpeg);
+    }
+  </style>
+    <nav>
+        <div class="nav__logo">
+          <a href="#"><img src="stimutech logo.png" alt="logo" /></a>
+        </div>
+        <ul class="nav__links">
+          <li class="link"><a href="index2.html" >HOME</a></li>
+          <li class="link dropdown"><a href="#">PRODUCT</a>
+              <div class="dropdown-content">
+                <a href="technology.html">Technology</a>
+                <a href="turbine.html">Turbine Model</a>
+                <a href="calculator.html">Calculator</a>
+              </div>
+            </li>
+          <li class="link dropdown"><a href="#" >SERVICE</a>
+            <div class="dropdown-content">
+              <a href="technology.html">Service&Maintainence</a>
+              <a href="turbine.html">Turbine Management System</a>
+          </li>   
+            </div>
+          
+          <li class="link"><a href="#">PROJECTS</a></li>
+          
+          <li class="link dropdown"><a href="#" class="active">ABOUT</a>
+          
+            <div class="dropdown-content">
+              
+              <a href="team.html">Meet Our Team</a>
+              <a href="contact.html" class="active">Contact</a>
+            </div>
+        
+          </li>       
+          </ul>
+      </nav>
+
+
+
+
+
+      <section class="calculate">
+        <h2>CONTACT</h2>
+        </section>
+  
+      <div class="calc">
+      <p>Thank you for your interest in WINDTECH.<br>
+         Please fill in the form below if you have any questions or call us on +31334540520. To help us direct your enquiry please try to fill in the form as much as possible.<br>
+
+        Find below the addresses of our office locations. For questions regarding career opportunities please go to the Careers page.</p>
+      </div>
+      <div class="form-container">
+        <form id="contactForm">
+            <label for="firstName">First Name*</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name*</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="companyName">Company Name</label>
+            <input type="text" id="companyName" name="companyName">
+
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country">
+
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message*</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <label for="optIn">By completing this form you accept that WindTech can store your info*</label>
+            <input type="checkbox" id="optIn" name="optIn" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
